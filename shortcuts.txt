@@ -1,0 +1,23 @@
+Switch Applications
+Mac - CMD + Tab
+PC - Alt + Tab
+
+Save
+Mac - CMD + s
+PC - CTRL + s
+
+Cut
+Mac - CMD + x
+PC - CTRL + x
+
+Copy
+Mac - CMD + c
+PC - CTRL + c
+
+Paste
+Mac - CMD + v
+PC - CTRL + v
+
+Undo
+Mac - CMD + z
+PC - CTRL + z
