@@ -1,10 +1,12 @@
 // LOOPS
 // For Loops
 
-// 1. Sentry
-// 2. Where that sentry starts
-// 3. Where that sentry stops
-// 4. How that sentry changes
+/*
+1. Sentry
+2. Where that sentry starts
+3. Where that sentry stops
+4. How that sentry changes
+*/
 
 // Print from 0 to 10
 for(var i = 0; i <= 10; i++){
@@ -22,6 +24,8 @@ for(var i = 1; i <= 20; i++){
     console.log(i);
   }
 }
+
+
 
 // Modulus/modulo
 // Remainder of division operator
@@ -55,4 +59,3 @@ for(var i = 1; i <= 100; i++){
 // Inside the for loop 
 //   Add i to sum
 //   Print i and sum
-
