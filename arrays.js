@@ -100,3 +100,49 @@ function printArrayVals(arr){
 }
 
 printArrayVals(colors);
+
+// 5. Find and Print Max
+// printMaxOfArray(arr)
+// Given an array, find and print its largest element. 
+
+// PSEUDOCODE
+// Create a function named printMaxOfArray that has one parameter (arr)
+// Create a variable called max and assign the first element in the array to be its value
+// Create a for loop that starts at the second element, and stops at the last element - arr.length and increments by one
+// Create a conditional that tests whether max is less than the current value in the array
+// If max IS less than the current value in the array, make that the new max
+// After the for loop, print the final value of max
+
+function printMaxOfArray(arr){
+  var max = arr[0];
+  for(var i = 1; i < arr.length; i++){
+    if(max < arr[i]){
+      max = arr[i];
+    }
+  }
+  console.log(max);
+}
+
+printMaxOfArray([3, 6, 1, 8, 23, 32, 5, 10]);
+
+// 13. Swap String For Array Negative Values
+// swapStringForArrayNegativeVals(arr)
+// Given an array of numbers, replace any negative values with the string 'Dojo'.
+
+// Create a function called swapStringForArrayNegativeVals that takes in an array (arr) as input
+// Create a for loop that starts at zero, ends at the array.length, and increments by one
+// Inside the for loop, create a conditional that tests whether arr[i] is less than zero
+// If it is, overwrite the current element with the string "Dojo"
+// After the for loop, console.log the array
+
+function swapStringForArrayNegativeVals(arr){
+  for(var i = 0; i < arr.length; i++){
+    if(arr[i] < 0){
+      arr[i] = "Dojo";
+    }
+  }
+  console.log(arr);
+}
+
+var myArray = [3, -6, 1, 8, -23, 32, -5, 10];
+swapStringForArrayNegativeVals(myArray);

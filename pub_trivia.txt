@@ -1,0 +1,53 @@
+1.  Which of the choices below returns the length of an array?
+    a) length
+    b) size()
+    c) index()
+    d) None of the above.
+
+2.  Variable names may start with a number. True or False?
+    a) True
+    b) False
+
+3.  All elements in an array must be of the same datatype. True or False?
+    a) True
+    b) False
+
+4. Which of the following bits of code adds 1 to i?
+    a) i = i + 1;
+    b) i += 1;
+    c) i++;
+    d) All of the above.
+
+5. Predict the output:
+    var x;
+    console.log(x);
+
+6. List all five JavaScript primitive datatypes.
+
+7. What is the terminology we use to refer to a and b in the below code snippet?
+    function myFunction(a, b){
+      // some code here
+    }
+
+8. Which code snippet will add the number 5 to the nums array?
+   var nums = [6, 2, 9, 3, 7, 10]
+    a) nums.push(5);
+    b) nums[6] = 5;
+    c) nums[nums.length-1] = 5;
+    d) All of the above
+
+9. Which of the following is a valid conditional?
+    a) if(a = b){
+      console.log(true);
+    }
+    b) if(a => b){
+      console.log(true);
+    }
+    c) if(a equals b){
+      console.log(true);
+    }
+    d) if(a == b){
+      console.log(true);
+    }
+
+10) Nichole and Ciso have a background in the arts. Which arts are they? Bonus points for assigning the correct art to the correct instructor.
