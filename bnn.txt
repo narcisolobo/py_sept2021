@@ -1,0 +1,31 @@
+On a train, King, Lobo, and Jones are the fireman, brakeman, and the engineer, but NOT respectively. Also aboard the train are three businessmen who have the same names: a Ms. King, a Mr. Lobo, and a Ms. Jones. Using the clues below, can you determine the identity of the Engineer?
+
+1. Mr. Lobo lives in Detroit.
+2. The brakeman lives exactly halfway between Chicago and Detroit
+3. Ms. Jones earns exactly $80,000 per year.
+4. The brakeman's nearest neighbor, one of the passengers, earns exactly three times as much as the brakeman.
+5. King beats the fireman in billiards.
+6. The passenger whose name is the same as the brakeman's lives in Chicago.
+
+King - 5
+Lobo - 4
+Jones - 3
+
+
+
+
+
+Answer
+We know that the brakeman doesn’t live in Detroit (2) and that their nearest neighbor is a passenger (4). So that passenger can’t be Mr. Lobo, who lives in Detroit (1).
+
+From (3) and (4) we know that the brakeman’s nearest neighbor also can’t be Ms. Jones (because Ms. Jones earns $80,000 per year, which is not evenly divisible by 3).
+
+Thus, if the brakeman’s nearest neighbor is not Ms. Jones and not Mr. Lobo, it must be Ms. King.
+
+Now, if Mr. Lobo lives in Detroit (1) and Ms. King lives halfway between Chicago and Detroit, then the third passenger, Ms. Jones, must be the one referred to in (6) and thus lives in Chicago.
+
+That means, also from (6), that the brakeman’s name is Jones. And if King is not the fireman (5), then by elimination King must be the engineer.
+
+1. Mr. Lobo lives in Detroit and the brakeman's nearest neighbor earns exactly 3 times as much as the brakeman. Therefore, neither Mr. Lobo nor Ms. Jones are the brakeman's nearest neighbor, so it must be Ms. King.
+2. King beats the fireman at billiards and the passenger whose name is the same as the brakeman's lives in Chicago. Mr. Lobo lives in Detroit and Ms. King lives between Chicago and Detroit. Therefore, it must be Ms. Jones who lives in Chicago and Jones is the brakeman.
+3. King is not the brakeman and he is not the fireman. He must be the engineer.
