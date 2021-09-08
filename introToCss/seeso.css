@@ -1,0 +1,52 @@
+/*
+
+CSS - Cascading Style Sheets
+IF HTML governs the structure of our site, CSS governs the style of our site.
+
+CSS allows us to modify or customize the default browser's styles.
+
+It allows us to do that with what we call CSS rules.
+
+A CSS rule consists of three parts.
+1. The selector
+2. The property
+3. The value of that property
+
+*/
+
+/*
+Types of selectors
+1. Element (HTML element name)
+2. Class selectors (Class selectors begin with a dot .)
+3. ID selectors (ID selectors begin with a hashtag #)
+*/
+
+h1 {
+  color: #228b22;
+}
+
+.bg-light {
+  background-color: aquamarine;
+}
+
+#about-heading {
+  color: crimson;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+
+RULE OF THUMB:
+Use an ID when it appears only once - you CANNOT have more than one of the same ID on your page.
+Use a class when it appears more than once.
+
+*/
+
+p {
+  /* Shorthand property - must have width, style, and color */
+  border: 3px solid red;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* KEVIN POWELL CSS YOUTUBER */
