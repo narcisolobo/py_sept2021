@@ -1,0 +1,64 @@
+/* CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px dashed red;
+}
+
+#logo {
+  color: firebrick;
+  /* padding is a shorthand property */
+  padding: 20px;
+  border: 3px solid black;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* h1,
+p,
+h2 {
+  margin: 0 auto;
+  width: fit-content;
+} */
+
+#me-cartoon {
+  width: 712px;
+}
+
+#nav-menu {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section {
+  display: inline-block;
+  background-color: pink;
+  width: 300px;
+  margin: 20px;
+}
+
+#main-content {
+  background-color: lightgray;
+}
+
+#border-box-example {
+  background-color: red;
+  width: 500px;
+  min-height: 500px;
+  margin: 0 auto;
+  border: 10px solid black;
+  padding: 20px;
+}
+
+/* 
+
+CSS Box Model
+From innermost to outermost:
+- element itself
+- padding
+- border
+- margin
+
+*/
