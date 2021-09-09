@@ -1,0 +1,109 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#name{
+    font-family: 'Yesteryear', cursive;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+}
+
+/* Power levels in CSS
+#ID - 100
+.Class - 10
+Tag - 1
+*/
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkcyan;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+#main {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: gold; */
+    align-items: flex-start;
+}
+
+#profilepic {
+    width: 400px;
+    /* vertical-align: top; */
+}
+
+#about {
+    /* display: inline-block; */
+    width: 500px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+#social {
+    /* display: inline-block; */
+    width: 200px;
+    background-color: cornflowerblue;
+    /* vertical-align: top; */
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lived {
+    flex: 2;
+    margin-right: 10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #6ed4fd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #6ed4fd;
+  }
+
+#contact {
+    flex: 1;
+}
+
+#button {
+    background-color: #6ed4fd;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#button:active{
+    background-color: #4e98b6;
+}
+
+/* #button:hover {
+    background-color: blueviolet;
+} */
+
+.input {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
